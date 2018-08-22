@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="General test suite for HomeWork6" configfailurepolicy="continue">
+	<suite-files>
+		<!-- Task1 -->
+		<suite-file path="test-suite-for-first-task.xml" />
+		<!-- Task2 -->
+		<suite-file path="test-suite-for-second-task.xml" />
+	</suite-files>
+</suite>

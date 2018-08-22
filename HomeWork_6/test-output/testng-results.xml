@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+    <line>
+      <![CDATA[asserting add method: ]]>
+    </line>
+    <line>
+      <![CDATA[asserting sub method: ]]>
+    </line>
+    <line>
+      <![CDATA[asserting mult method: ]]>
+    </line>
+    <line>
+      <![CDATA[asserting div method: ]]>
+    </line>
+  </reporter-output>
+  <suite name="Task1" duration-ms="1025" started-at="2018-08-22T15:00:40Z" finished-at="2018-08-22T15:00:41Z">
+    <groups>
+    </groups>
+    <test name="HttpRequestTest" duration-ms="1025" started-at="2018-08-22T15:00:40Z" finished-at="2018-08-22T15:00:41Z">
+      <class name="At_025.HomeWork_6.HttpRequestTest">
+        <test-method status="PASS" signature="setupHttpClient()[pri:0, instance:At_025.HomeWork_6.HttpRequestTest@2b98378d]" name="setupHttpClient" is-config="true" duration-ms="584" started-at="2018-08-22T15:00:40Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupHttpClient -->
+        <test-method status="PASS" signature="HttpHtmlTest()[pri:0, instance:At_025.HomeWork_6.HttpRequestTest@2b98378d]" name="HttpHtmlTest" duration-ms="401" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HttpHtmlTest -->
+      </class> <!-- At_025.HomeWork_6.HttpRequestTest -->
+    </test> <!-- HttpRequestTest -->
+  </suite> <!-- Task1 -->
+  <suite name="General test suite for HomeWork6" duration-ms="0" started-at="2018-08-22T15:00:42Z" finished-at="2018-08-22T15:00:42Z">
+    <groups>
+    </groups>
+  </suite> <!-- General test suite for HomeWork6 -->
+  <suite name="Test2" duration-ms="150" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:42Z">
+    <groups>
+    </groups>
+    <test name="AddTest" duration-ms="50" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+      <class name="At_025.HomeWork_6.AddTest">
+        <test-method status="PASS" signature="firstTestForAddMethod()[pri:1, instance:At_025.HomeWork_6.AddTest@1794d431]" name="firstTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestForAddMethod -->
+        <test-method status="PASS" signature="secondTestForAddMethod()[pri:2, instance:At_025.HomeWork_6.AddTest@1794d431]" name="secondTestForAddMethod" duration-ms="10" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[asserting add method: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondTestForAddMethod -->
+        <test-method status="PASS" signature="thirdTestForAddMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.AddTest@1794d431]" name="thirdTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="addMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForAddMethod -->
+        <test-method status="PASS" signature="thirdTestForAddMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.AddTest@1794d431]" name="thirdTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="addMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForAddMethod -->
+        <test-method status="PASS" signature="thirdTestForAddMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.AddTest@1794d431]" name="thirdTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="addMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForAddMethod -->
+        <test-method status="PASS" signature="thirdTestForAddMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.AddTest@1794d431]" name="thirdTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="addMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483600]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForAddMethod -->
+        <test-method status="PASS" signature="fourthTestForAddMethod(int, int, int)[pri:4, instance:At_025.HomeWork_6.AddTest@1794d431]" name="fourthTestForAddMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestForAddMethod -->
+      </class> <!-- At_025.HomeWork_6.AddTest -->
+    </test> <!-- AddTest -->
+    <test name="SubTest" duration-ms="30" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+      <class name="At_025.HomeWork_6.SubTest">
+        <test-method status="PASS" signature="secondTestForSubMethod()[pri:2, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="secondTestForSubMethod" duration-ms="10" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[asserting sub method: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondTestForSubMethod -->
+        <test-method status="PASS" signature="firstTestForSubMethod()[pri:1, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="firstTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestForSubMethod -->
+        <test-method status="PASS" signature="thirdTestForSubMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="thirdTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="subMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForSubMethod -->
+        <test-method status="PASS" signature="thirdTestForSubMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="thirdTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="subMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2147483646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForSubMethod -->
+        <test-method status="PASS" signature="thirdTestForSubMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="thirdTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="subMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForSubMethod -->
+        <test-method status="PASS" signature="thirdTestForSubMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="thirdTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="subMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForSubMethod -->
+        <test-method status="PASS" signature="thirdTestForSubMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="thirdTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="subMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForSubMethod -->
+        <test-method status="PASS" signature="fourthTestForSubMethod(int, int, int)[pri:4, instance:At_025.HomeWork_6.SubTest@204f30ec]" name="fourthTestForSubMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestForSubMethod -->
+      </class> <!-- At_025.HomeWork_6.SubTest -->
+    </test> <!-- SubTest -->
+    <test name="MultTest" duration-ms="30" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+      <class name="At_025.HomeWork_6.MultTest">
+        <test-method status="PASS" signature="secondTestForMultMethod()[pri:2, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="secondTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[asserting mult method: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondTestForMultMethod -->
+        <test-method status="PASS" signature="firstTestForMultMethod()[pri:1, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="firstTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestForMultMethod -->
+        <test-method status="PASS" signature="thirdTestForMultMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="thirdTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="multMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[715827882]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForMultMethod -->
+        <test-method status="PASS" signature="thirdTestForMultMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="thirdTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="multMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-715827882]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForMultMethod -->
+        <test-method status="PASS" signature="thirdTestForMultMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="thirdTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="multMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForMultMethod -->
+        <test-method status="PASS" signature="fourthTestForMultMethod(int, int, int)[pri:4, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="fourthTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[162]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestForMultMethod -->
+        <test-method status="PASS" signature="thirdTestForMultMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="thirdTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="multMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-715827882]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForMultMethod -->
+        <test-method status="PASS" signature="thirdTestForMultMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.MultTest@13deb50e]" name="thirdTestForMultMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="multMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForMultMethod -->
+      </class> <!-- At_025.HomeWork_6.MultTest -->
+    </test> <!-- MultTest -->
+    <test name="DivTest" duration-ms="10" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:42Z">
+      <class name="At_025.HomeWork_6.DivTest">
+        <test-method status="PASS" signature="thirdTestForDivMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.DivTest@5f341870]" name="thirdTestForDivMethod" duration-ms="10" started-at="2018-08-22T15:00:41Z" data-provider="divMethodDataProvider" finished-at="2018-08-22T15:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForDivMethod -->
+        <test-method status="PASS" signature="secondTestForDivMethod()[pri:2, instance:At_025.HomeWork_6.DivTest@5f341870]" name="secondTestForDivMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[asserting div method: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondTestForDivMethod -->
+        <test-method status="PASS" signature="thirdTestForDivMethod(int, int, int)[pri:3, instance:At_025.HomeWork_6.DivTest@5f341870]" name="thirdTestForDivMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" data-provider="divMethodDataProvider" finished-at="2018-08-22T15:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestForDivMethod -->
+        <test-method status="PASS" signature="firstTestForDivMethod()[pri:1, instance:At_025.HomeWork_6.DivTest@5f341870]" name="firstTestForDivMethod" duration-ms="0" started-at="2018-08-22T15:00:41Z" finished-at="2018-08-22T15:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestForDivMethod -->
+        <test-method status="PASS" signature="fourthTestForDivMethod(int, int, int)[pri:4, instance:At_025.HomeWork_6.DivTest@5f341870]" name="fourthTestForDivMethod" duration-ms="0" started-at="2018-08-22T15:00:42Z" finished-at="2018-08-22T15:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestForDivMethod -->
+      </class> <!-- At_025.HomeWork_6.DivTest -->
+    </test> <!-- DivTest -->
+  </suite> <!-- Test2 -->
+</testng-results>

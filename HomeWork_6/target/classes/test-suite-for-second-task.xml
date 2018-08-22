@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test2" verbose="5" configfailurepolicy="continue">
+	<test name="AddTest">
+		<parameter name="x" value="18" />
+		<parameter name="y" value="9" />
+		<parameter name="sum" value="27" />
+
+		<classes>
+			<class name="At_025.HomeWork_6.AddTest" />
+
+
+		</classes>
+	</test>
+
+	<test name="SubTest">
+		<parameter name="x" value="18" />
+		<parameter name="y" value="9" />
+		<parameter name="difference" value="9" />
+
+		<classes>
+
+			<class name="At_025.HomeWork_6.SubTest" />
+
+
+		</classes>
+	</test>
+
+	<test name="MultTest">
+		<parameter name="x" value="18" />
+		<parameter name="y" value="9" />
+		<parameter name="multiplication" value="162" />
+
+		<classes>
+
+			<class name="At_025.HomeWork_6.MultTest" />
+
+		</classes>
+	</test>
+
+	<test name="DivTest">
+		<parameter name="x" value="18" />
+		<parameter name="y" value="9" />
+		<parameter name="division" value="2" />
+
+		<classes>
+
+			<class name="At_025.HomeWork_6.DivTest" />
+
+		</classes>
+	</test>
+
+</suite>
+
+
+
